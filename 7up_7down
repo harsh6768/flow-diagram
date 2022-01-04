@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T10:02:18.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uKR3a5ZonTfydpfkSlDB" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T12:22:50.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bUIusnBYux-OVDC_mfh0" version="16.1.2" type="github">
   <diagram id="bCqn-ssmLbzt_G5NSIOM" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,6 +45,57 @@
             <mxPoint x="800" y="300" as="sourcePoint" />
             <mxPoint x="800" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-6" value="1. create hash for the players .&lt;br&gt;2. set count=1&lt;br&gt;3. set lastUpdated to current date" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="691" y="411" width="219" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-7" value="lastUpdated &amp;gt; 1h&lt;br&gt;config" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="332" y="411" width="140" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-9" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp;id:&quot;hash of players&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;count:1,&lt;br&gt;&amp;nbsp; &amp;nbsp;lastUpdated:&quot;updatedDate&quot;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="471" y="475" as="sourcePoint" />
+            <mxPoint x="560" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-12" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="475" as="sourcePoint" />
+            <mxPoint x="330" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="475" as="sourcePoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="473" as="sourcePoint" />
+            <mxPoint x="240" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. set count=1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. lastUpdated=current datetime&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="441" y="611" width="230" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-18" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="485" y="450" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-19" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="710" as="sourcePoint" />
+            <mxPoint x="560" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ady7Tqrk-9s7oM07Lm4C-21" value="Normal game play" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="800" width="164" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
